@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+h1{
+    color:hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background: url(./images/bg-header-mobile.png) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#logo{
+    width: 30%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+#welcome-section{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 40px;
+    z-index: 2;
+}
+#welcome-section h1, p{
+    text-align: center;
+}
+#welcome-section h1{
+    font-size: 2.2rem;
+}
+#welcome-section p{
+    line-height: 1.6;
+}
+/* styling for the download buttons */
+#download-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 145px;
+    margin-top: 2em;
+    justify-content: space-between;
+}
+#download-buttons button{
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: .9em;
+    text-align: center;
+    color:hsl(0, 0%, 100%);
+    font-size: 17px;
+    transition-duration: 0.6s;
+}
+#ios-btn button{
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 10px 10px hsla(171, 66%, 44%, 0.3);
+}
+#mac-btn button{
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 10px 10px hsla(0, 0%, 0%, 0.3)
+}
+#ios-btn button:hover{
+    background-color: hsl(171, 66%, 37%)
+}#mac-btn button:hover{
+    background-color:hsl(233, 100%, 63%)
+}
+/* end of button styling */
+#snippets-info-section{
+    width: 80%;
+    margin: 7em auto;
+}
+#snippets-info-section h1, p{
+    text-align: center;
+}
+#snippets-info-section h1{
+    font-size: 1.8rem;
+}
+#snippets-info-section p{
+    line-height: 1.6;
+}
+#snippets-sub{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    margin-top: 2em;
+    justify-content: space-between;
+    padding-top: 2em;
+}
+#snippets-sub h1{
+    font-size: 1.5rem;
+}
+#computer-img{
+    width: 100%
+}
+#computer-img img{
+    width: inherit;
+}
+#snippets-sub-info{
+    width: 100%;
+}
+#access-clipboard{
+    margin: 7em auto;
+    padding-top: 2em;
+}
+#devices-img{
+    width: 100%;
+    margin: 2em auto;
+}
+#devices-img img{
+    width: inherit;
+}
+#supercharge-workflow{
+    width: 100%;
+    margin: 3em auto;
+}
+#supercharge-workflow-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 3em auto;
+    height: 650px;
+}
+#supercharge-workflow-imgs{
+    margin: 0 auto;
+    width: 20%;
+}
+#supercharge-workflow-info h1{
+    font-size: 1.5rem;
+}
+#companies{
+    width: 90%;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 450px;
+}
+#company-logo{
+    margin: 0 auto;
+}
+#company-logo img{
+    transform: scale(0.7);
+}
+#download-button2{
+    width: 80%;
+    margin: 3em auto;
+    padding-bottom: 4em;
+}
+#download-button2 h1, p{
+    text-align: center;
+}
+#download-button2 h1{
+    font-size: 1.8rem;
+    color: hsl(210, 10%, 33%);
+}
+#download-button2 p{
+    line-height: 1.6;
+}
+footer{
+    height: auto;
+    background-color: hsla(201, 11%, 66%, 0.1);
+    margin-top: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+footer p{
+    color: hsl(210, 10%, 33%);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#footer-contents{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+}
+#footer-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 330px;
+}
+#footer-logo{
+    width: 80px;
+    margin: 0 auto;
+}
+#footer-logo img{
+    width: 80px;
+}
+#socials{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 140px;
+}
