@@ -40,8 +40,8 @@ header{
     text-align: center;
 }
 #welcome-section h1{
-    font-size: 1.9rem;
-    width: 300px;
+    font-size: 1.8rem;
+    width: 100%;
     margin: 0 auto;
 }
 #welcome-section p{
